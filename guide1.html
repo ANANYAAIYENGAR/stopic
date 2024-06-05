@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Select Guide and Project</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form action="connect.php" method="post">
+      <h2>Select a Guide and Project</h2>
+      <div>
+        <label for="guide">Select a Guide:</label>
+        <select id="guide" name="guide">
+          <option value="">---SELECT---</option>
+          <option value="ANITHA">ANITHA</option>
+          <option value="KAVITHA">KAVITHA</option>
+          <option value="PRIYA">PRIYA</option>
+          <!-- Add more guides as needed -->
+        </select>
+      </div>
+      <div>
+        <label for="project">Select a Project:</label>
+        <select id="project" name="project">
+          <option value="project1">Project 1</option>
+          <option value="project2">Project 2</option>
+          <option value="project3">Project 3</option>
+          <option value="project4">Project 4</option>
+          <option value="project5">Project 5</option>
+        </select>
+      </div>
+      <button type="submit">Save Selection</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
